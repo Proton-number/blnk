@@ -1,0 +1,34 @@
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+#mobileNav{
+  display: block;
+  }
+  
+#desktopNav{
+  display: none;
+}
+
+  
+@media screen and (min-width:600px) {
+
+  
+#desktopNav{
+  display: block;
+}
+
+  #mobileNav{
+  display: none;
+  }
+
+  
+ 
+}
+
